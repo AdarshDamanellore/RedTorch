@@ -27,7 +27,7 @@ const Filters = ({
             <button
               key={category}
               onClick={() => onCategoryChange(category)}
-              className={`px-4 py-2 rounded-full border ${
+              className={`px-4 py-2 rounded-full border text-sm ${
                 selectedCategory === category
                   ? "bg-blue-500 text-white"
                   : "bg-gray-200"
@@ -47,7 +47,7 @@ const Filters = ({
             <button
               key={brand}
               onClick={() => onBrandChange(brand)}
-              className={`px-4 py-2 rounded-full border ${
+              className={`px-4 py-2 rounded-full border text-sm ${
                 selectedBrand === brand
                   ? "bg-blue-500 text-white"
                   : "bg-gray-200"
@@ -67,7 +67,7 @@ const Filters = ({
             <button
               key={color}
               onClick={() => onColorChange(color)}
-              className={`px-4 py-2 rounded-full border ${
+              className={`px-4 py-2 rounded-full border text-sm ${
                 selectedColor === color
                   ? "bg-blue-500 text-white"
                   : "bg-gray-200"
@@ -97,7 +97,7 @@ const Filters = ({
 
       <button
         onClick={onResetFilters}
-        className="w-full py-2 bg-gradient-to-r from-blue-500 to-teal-500 text-white font-semibold rounded-lg shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-blue-300"
+        className="w-full py-2 bg-gradient-to-r from-teal-500 to-blue-500 text-white font-normal rounded-lg shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-teal-300"
       >
         Reset Filters
       </button>

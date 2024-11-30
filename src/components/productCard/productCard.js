@@ -11,23 +11,39 @@ const ProductCard = ({ products, onAddToCart }) => {
           {products.map((product) => (
             <div
               key={product.id}
-              className="border rounded p-4 shadow-md flex flex-col items-start"
+              className="border rounded p-4 shadow-md flex flex-col items-start space-y-4"
             >
               <img
                 src={product.imageUrl}
                 alt={product.name}
-                className="w-full h-40 object-cover mb-4 rounded"
+                className="w-full h-40 object-cover rounded"
               />
               <h3 className="text-lg font-semibold">{product.name}</h3>
-              <p className="text-gray-600">Category: {product.category}</p>
-              <p className="text-gray-600">Brand: {product.brand}</p>
-              <p className="text-gray-600">Color: {product.color}</p>
-              <p className="text-gray-800 font-semibold">
-                Price: ${product.price}
-              </p>
+              <div className="space-y-2 text-sm text-gray-600">
+                <div className="flex">
+                  <p className="w-24">Category</p>
+                  <p className="mx-3">:</p>
+                  <p className="text-gray-800">{product.category}</p>
+                </div>
+                <div className="flex">
+                  <p className="w-24">Brand</p>
+                  <p className="mx-3">:</p>
+                  <p className="text-gray-800">{product.brand}</p>
+                </div>
+                <div className="flex">
+                  <p className="w-24">Color</p>
+                  <p className="mx-3">:</p>
+                  <p className="text-gray-800">{product.color}</p>
+                </div>
+                <div className="flex items-center font-semibold">
+                  <p className="w-24">Price</p>
+                  <p className="mx-3">:</p>
+                  <p className="text-lg text-gray-800">${product.price}</p>
+                </div>
+              </div>
               <button
                 onClick={() => onAddToCart(product)}
-                className="mt-4 px-4 py-2 bg-blue-500 text-white rounded"
+                className="px-4 py-2 bg-blue-500 text-white rounded"
               >
                 Add to Cart
               </button>

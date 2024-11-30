@@ -72,10 +72,10 @@ const CategoryMenu = () => {
               className="flex items-center space-x-2 text-gray-800 hover:text-blue-600 text-xl"
             >
               {category.icon}
-              <span className="text-xl text-gray-500 hover:text-blue-600">
+              <span className="text-lg text-gray-500 hover:text-blue-600">
                 {category.name}
               </span>
-              <MdKeyboardArrowDown size={18} />
+              <MdKeyboardArrowDown size={20} />
             </button>
 
             {activeCategory === category.name && (

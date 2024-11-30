@@ -7,7 +7,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-purple-500 to-blue-600  text-white py-10">
+    <footer className="bg-gradient-to-r from-purple-500 to-blue-600  text-white py-10 px-5">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {/* Company Info */}
@@ -15,22 +15,22 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-4">Company</h3>
             <ul>
               <li className="mb-2">
-                <a href="#" className="hover:text-blue-400">
+                <a href="#" className="text-sm hover:text-yellow-300">
                   About Us
                 </a>
               </li>
               <li className="mb-2">
-                <a href="#" className="hover:text-blue-400">
+                <a href="#" className="text-sm hover:text-yellow-300">
                   Careers
                 </a>
               </li>
               <li className="mb-2">
-                <a href="#" className="hover:text-blue-400">
+                <a href="#" className="text-sm hover:text-yellow-300">
                   Press
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-blue-400">
+                <a href="#" className="text-sm hover:text-yellow-300">
                   Privacy Policy
                 </a>
               </li>
@@ -42,22 +42,22 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-4">Customer Service</h3>
             <ul>
               <li className="mb-2">
-                <a href="#" className="hover:text-blue-400">
+                <a href="#" className="text-sm hover:text-yellow-300">
                   Help Center
                 </a>
               </li>
               <li className="mb-2">
-                <a href="#" className="hover:text-blue-400">
+                <a href="#" className="text-sm hover:text-yellow-300">
                   Track Order
                 </a>
               </li>
               <li className="mb-2">
-                <a href="#" className="hover:text-blue-400">
+                <a href="#" className="text-sm hover:text-yellow-300">
                   Return Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-blue-400">
+                <a href="#" className="text-sm hover:text-yellow-300">
                   Terms of Service
                 </a>
               </li>
@@ -68,18 +68,20 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg mb-4">Contact</h3>
             <ul>
-              <li className="mb-2">
-                Email:{" "}
+              <li className="flex items-center text-sm mb-2">
+                <p className="w-14">Email</p>
+                <p className="mx-2">:</p>
                 <a
                   href="mailto:info@example.com"
-                  className="hover:text-blue-400"
+                  className="hover:text-yellow-300"
                 >
                   info@example.com
                 </a>
               </li>
-              <li className="mb-2">
-                Phone:{" "}
-                <a href="tel:+1234567890" className="hover:text-blue-400">
+              <li className="flex items-center text-sm mb-2">
+                <p className="w-14">Phone</p>
+                <p className="mx-2">:</p>
+                <a href="tel:+1234567890" className="hover:text-yellow-300">
                   +1 234 567 890
                 </a>
               </li>
@@ -107,7 +109,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 border-t border-gray-700 pt-6 text-center">
-          <p className="text-base text-white">
+          <p className="text-sm text-white">
             &copy; 2024 Electronics Shop. All rights reserved.
           </p>
         </div>

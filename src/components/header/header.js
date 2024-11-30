@@ -75,10 +75,10 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-md sticky top-0 z-50 w-full">
+    <header className="bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-md sticky top-0 z-50 w-full px-5">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <div className="text-3xl font-bold">
+        <div className="text-2xl font-bold">
           <a href="/">ElectroShop</a>
         </div>
 
@@ -99,25 +99,25 @@ const Header = () => {
         {/* Desktop Navigation */}
         <div className="hidden lg:flex space-x-6">
           <button
-            className="text-xl hover:text-yellow-400"
+            className="text-lg hover:text-yellow-300"
             onClick={() => navigate(routeNames.homepage)}
           >
             Home
           </button>
           <button
-            className="text-xl hover:text-yellow-400"
+            className="text-lg hover:text-yellow-300"
             onClick={() => navigate(routeNames.products)}
           >
             Products
           </button>
           <button
-            className="text-xl hover:text-yellow-400"
+            className="text-lg hover:text-yellow-300"
             onClick={() => navigate(routeNames.deals)}
           >
             Deals
           </button>
           <button
-            className="text-xl hover:text-yellow-400"
+            className="text-lg hover:text-yellow-300"
             onClick={() => navigate(routeNames.contact)}
           >
             Contact
@@ -128,23 +128,23 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           {/* Wishlist and Cart Icons (Always visible) */}
           <button className="text-white">
-            <FiHeart size={24} />
+            <FiHeart size={22} />
           </button>
           <button className="text-white">
-            <FiShoppingCart size={24} />
+            <FiShoppingCart size={22} />
           </button>
 
           {/* Sign Up and Login Buttons (Hidden on mobile and tablet) */}
-          <div className="hidden lg:flex space-x-4">
+          <div className="hidden lg:flex">
             <button
               onClick={() => navigate(routeNames.otp)}
-              className="text-xl text-white hover:bg-yellow-400 px-4 py-2 rounded"
+              className="text-lg text-white hover:bg-yellow-400 px-4 py-2 rounded"
             >
               Sign Up
             </button>
             <button
               onClick={openLoginModal}
-              className="text-xl text-white hover:bg-yellow-400 px-4 py-2 rounded"
+              className="text-lg text-white hover:bg-yellow-400 px-4 py-2 rounded"
             >
               Login
             </button>
