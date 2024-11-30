@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone X",
+    "category": "Smartphone",
+    "brand": "Brand A",
+    "color": "Black",
+    "price": 799,
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "name": "Laptop Pro",
+    "category": "Laptop",
+    "brand": "Brand B",
+    "color": "Silver",
+    "price": 1299,
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 3,
+    "name": "Smartwatch Z",
+    "category": "Wearable",
+    "brand": "Brand C",
+    "color": "Blue",
+    "price": 199,
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 4,
+    "name": "Ultra HD TV",
+    "category": "Television",
+    "brand": "Brand D",
+    "color": "Black",
+    "price": 999,
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 5,
+    "name": "Gaming Console",
+    "category": "Console",
+    "brand": "Brand E",
+    "color": "White",
+    "price": 499,
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 6,
+    "name": "Wireless Headphones",
+    "category": "Accessories",
+    "brand": "Brand F",
+    "color": "Black",
+    "price": 149,
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 7,
+    "name": "4K Monitor",
+    "category": "Accessories",
+    "brand": "Brand A",
+    "color": "Silver",
+    "price": 299,
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 8,
+    "name": "Smartphone Y",
+    "category": "Smartphone",
+    "brand": "Brand B",
+    "color": "Blue",
+    "price": 899,
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 9,
+    "name": "Fitness Tracker",
+    "category": "Wearable",
+    "brand": "Brand C",
+    "color": "Black",
+    "price": 99,
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 10,
+    "name": "Portable Speaker",
+    "category": "Accessories",
+    "brand": "Brand E",
+    "color": "White",
+    "price": 129,
+    "imageUrl": "https://via.placeholder.com/150"
+  }
+]
